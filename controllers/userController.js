@@ -112,4 +112,6 @@ const userController = {
 	}
 }
 
+// controllers
+
 module.exports = userController
