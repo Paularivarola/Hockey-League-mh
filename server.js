@@ -36,7 +36,7 @@ const mongo = require('connect-mongodb-session')(session)
 require('dotenv').config()
 
 const miStore = new mongo({
-    uri: process.env.MONGODB,
+    uri: process.env.MONGO,
     collection: 'sessions'
 })
 
