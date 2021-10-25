@@ -34,7 +34,7 @@ const router = require('./routes/index')
 const session = require('express-session')
 const mongo = require('connect-mongodb-session')(session)
 require('dotenv').config()
-
+console.log("Hola")
 const miStore = new mongo({
     uri: process.env.MONGO,
     collection: 'sessions'
