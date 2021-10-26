@@ -26,5 +26,4 @@ app.use(session({
 app.use("/", router)
 
 
-app.listen(process.env.PORT || 4000, process.env.HOST || '0.0.0.0', () => console.log("Server listening..."))
-
+app.listen(process.env.PORT || 4000, process.env.HOST || '0.0.0.0', () => console.log("Server listening"))
