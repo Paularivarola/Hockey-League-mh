@@ -320,8 +320,8 @@ form div {
 }
 
 .photo {
-	width: 4rem;
-	height: 4rem;
+	width: 3.5rem;
+	height: 3.5rem;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -385,7 +385,7 @@ fieldset {
 	width: 30%;
 }
 
-input {
+.form-sign input {
 	opacity: 0.5;
 	font-weight: bold;
 	width: 90%;
@@ -634,8 +634,13 @@ footer {
 		font-size: 1rem;
 	}
 
-	input {
-		padding: 1vh 0vw;
+	.form-sign input {
+		opacity: 0.5;
+		font-weight: bold;
+		width: 90%;
+		padding: 2vh;
+		font-size: 1rem;
+		align-items: center;
 	}
 
 	.page404 img {
@@ -736,6 +741,13 @@ footer {
 	.parrafoAbout {
 		width: 100%;
 		font-size: 0.8rem;
+	}
+
+	.error-form {
+		font-size: 1rem;
+	    margin-top: 0.5vw;
+	    padding: 5vw;
+
 	}
 }
 

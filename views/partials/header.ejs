@@ -1,8 +1,8 @@
 <header class='navegation'>
 
     <div class="user">
-        <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle ms-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class="nav-item dropdown align-items-center">
+            <a class="nav-link dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <div class='photo' style="background-image: url('https://i.postimg.cc/jCYWNF6X/37589.jpg')"></div>
             </a>
             <ul class="dropdown-menu bg-dark text-center" aria-labelledby="navbarDropdown">    
@@ -12,14 +12,13 @@
                 <li><a class="<%= title.includes('Contact') %>" href='/contact'>Contact</a></li>
                 <li><a class="<%= title.includes('Rules') %>" href='/rules'>Rules</a></li>
             </ul>
-           
     </div>
     </div>
     <h1>MIGHTY DUCKS HOCKEY LEAGUE</h1>
     <nav>
         <div class="user">
-            <div class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle ms-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="nav-item dropdown align-items-center">
+                <a class="nav-link dropdown-toggle d-flex" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <% if(!loggedIn)  { %>
                         <img class="logo" src="/assets/user.png" alt="user"/>
                         <% } else { %>
