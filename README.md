@@ -1,7 +1,7 @@
 ## Hockey-League-mh 🏒
 
 ## Trabajo realizado
-Web App desarrollada en 7 días. Es una app pensada para mostrar las fechas de los partidos en competiciones de hockey. El usuario puede crearse una cuenta, y poder visualizar las fechas de su proximo partido.
+Web App desarrollada en 7 días. Es una app pensada para mostrar las fechas de los partidos en competiciones de hockey. El usuario puede crearse una cuenta, y poder visualizar las fechas de los proximo partidos.
 <br></br>
 
 <br></br>
